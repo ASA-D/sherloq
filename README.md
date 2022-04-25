@@ -22,7 +22,7 @@
 最初のバージョンは、多くのオプションを持つコマンドラインユーティリティを構築するためにC++11を使って2015年に書かれましたが、すぐに面倒くさくなって効率的でないことが判明しました。 そのバージョンは、OpenCV、Boost、AlgLibのライブラリをインストールした後、CMakeでコンパイルすることができました。 この最初の実証実験では、予定していた機能の約8割を提供しました。(詳しくは下記をご覧ください。).
 
 新たなアルゴリズムも盛り込みつつ、2017年リリースのバージョンでは主にQtベースのマルチウィンドウGUIを追加し、より良いユーザーエクスペリエンスを提供することに成功しました。複数の解析結果を画面に表示することができ、高速ズーム/スクロールビューアも実装され、画像のナビゲーションが容易になりました。そのプロジェクトはQt CreatorでQt 5とOpenCV 3でコンパイルすることができ、予定していた機能の７割程度を実装することができました。
-Fast forward to 2020 when I decided to port everything in Python (PySide2 + Matplotlib + OpenCV) for easier development and deployment. While this iteration is just begun and I have yet to port all the previous code on the new platform, I think this will be the final "form" of the project (as long as someone does not volunteer up to develop a nice web application!).
+2020年リリースのバージョンでは、開発とデプロイを容易にするために、すべてをPython（PySide2 + Matplotlib + OpenCV）で移植することにしました。 この挑戦は始まったばかりで、まだ以前のコードをすべて新しいプラットフォームに移植していませんが、これがプロジェクトの最終的な「形」になると思います（誰かが素敵なウェブアプリケーションを開発するためにボランティアで参加しない限りはね！）。
 
 I'm happy to share my code and get in contact with anyone interested to improve or test it, but please keep in mind that this repository is *not* intended for distributing a final product, my aim is just to publicly track development of an *unpretentious educational tool*, so expect bugs, unpolished code and missing features! ;)
 

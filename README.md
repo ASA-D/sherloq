@@ -3,11 +3,10 @@
   <br><b>An open source image forensic toolset</b>
 </p>
 
-# Introduction
-"*Forensic Image Analysis is the application of image science and domain expertise to interpret the content of an image and/or the image itself in legal matters. Major subdisciplines of Forensic Image Analysis with law enforcement applications include: Photogrammetry, Photographic Comparison, Content Analysis, and Image Authentication.*" (Scientific Working Group on Imaging Technologies)
+# はじめに
+"*法医学的画像解析とは、画像科学と専門知識を応用し、法的な問題において画像の内容や画像そのものを解析することです。法執行機関で利用される画像解析の主なサブディシプリンは写真測量、写真比較、コンテンツ分析、画像認証の４つです。*" (画像技術に関する科学ワーキンググループ)
 
-**Sherloq** is a personal research project about implementing a fully integrated environment for digital image forensics. It is not meant as an automatic tool that decide if an image is forged or not (that tool probably will never exist...), but as a companion in experimenting with various algorithms found in the latest research papers and workshops.
-
+**Sherloq**は、デジタル画像フォレンジックのための完全に統合された環境を実装するための個人的な研究プロジェクトです。これは、画像が偽造されたものかどうかを判断する自動ツール（そんなツールはおそらく存在しないでしょう...）としてではなく、最新の研究論文やワークショップで見つかった様々なアルゴリズムを実験するためのコンパニオンとして意図されています。
 While many commercial solutions have high retail prices and often reserved to law enforcement and government agencies only, this toolset aims to be a both an extensible framework and a starting point for anyone interested in making experiments in this particular application of digital signal processing.
 
 I strongly believe that *security-by-obscurity* is the wrong way to offer any kind of forensic service (i.e. "Using this proprietary software I guarantee you that this photo *is* pristine... and you have to trust me!"). Following the open-source philosophy, everyone should be able to try various techniques on their own, gain knowledge and share it to the community... even better if they contribute with code improvements! :)

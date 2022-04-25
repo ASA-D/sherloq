@@ -7,19 +7,19 @@
 "*法医学的画像解析とは、画像科学と専門知識を応用し、法的な問題において画像の内容や画像そのものを解析することです。法執行機関で利用される画像解析の主なサブディシプリンは写真測量、写真比較、コンテンツ分析、画像認証の４つです。*" (画像技術に関する科学ワーキンググループ)
 
 **Sherloq**は、デジタル画像フォレンジックのための完全に統合された環境を実装するための個人的な研究プロジェクトです。これは、画像が偽造されたものかどうかを判断する自動ツール（そんなツールはおそらく存在しないでしょう...）としてではなく、最新の研究論文やワークショップで見つかった様々なアルゴリズムを実験するためのコンパニオンとして意図されています。
-While many commercial solutions have high retail prices and often reserved to law enforcement and government agencies only, this toolset aims to be a both an extensible framework and a starting point for anyone interested in making experiments in this particular application of digital signal processing.
+多くの市販のプログラムは値段が非常に高く、法執行機関や政府機関のみに提供されることが多いのですが、このツールセットは拡張可能なフレームワークであると同時に、画像処理のためのアプリケーションを誰でも利用できるようにしています。
 
-I strongly believe that *security-by-obscurity* is the wrong way to offer any kind of forensic service (i.e. "Using this proprietary software I guarantee you that this photo *is* pristine... and you have to trust me!"). Following the open-source philosophy, everyone should be able to try various techniques on their own, gain knowledge and share it to the community... even better if they contribute with code improvements! :)
+私は、*不確実性*は、あらゆる種類の画像解析ツールセットを提供する時の間違った方法だと考えています（例えば、「この独自のソフトウェアを使えば、この写真が*本物であることを証明します...そして、あなたは私を信じてください!」）。オープンソースの理念に基づき、誰もが様々な技術を自分で試し、知識を得て、それをコミュニティで共有できるようにすべきです...コードの改善で貢献するなら、なおさらです。
 
-- [History](https://github.com/GuidoBartoli/sherloq#historry)
-- [Features](https://github.com/GuidoBartoli/sherloq#features)
-- [Screenshots](https://github.com/GuidoBartoli/sherloq#screenshots)
-- [Installation](https://github.com/GuidoBartoli/sherloq#installation)
-- [Updates](https://github.com/GuidoBartoli/sherloq#updates)
-- [Bibliography](https://github.com/GuidoBartoli/sherloq#bibliography)
+- [沿革](https://github.com/GuidoBartoli/sherloq#historry)
+- [機能](https://github.com/GuidoBartoli/sherloq#features)
+- [スクショ](https://github.com/GuidoBartoli/sherloq#screenshots)
+- [インストール方法](https://github.com/GuidoBartoli/sherloq#installation)
+- [アプデ一覧](https://github.com/GuidoBartoli/sherloq#updates)
+- [参考文献](https://github.com/GuidoBartoli/sherloq#bibliography)
 
-# History
-The first version was written in 2015 using C++11 to build a command line utility with many options, but soon it turned to be too cumbersome and not much interactive. That version could be compiled with CMake after installing OpenCV, Boost and AlgLib libraries. This first proof of concept offered about 80% of planned features (see below for the full list).
+# 沿革
+最初のバージョンは、多くのオプションを持つコマンドラインユーティリティを構築するためにC++11を使って2015年に書かれましたが、すぐに面倒くさくなって効率的でないことが判明しました。 That version could be compiled with CMake after installing OpenCV, Boost and AlgLib libraries. This first proof of concept offered about 80% of planned features (see below for the full list).
 
 While also including novel algorithms, the 2017 version mainly added a Qt-based multi-window GUI to provide a better user experience. Multiple analyses could be shown on screen and a fast zoom/scroll  viewer was implemented for easier image navigation. That project could be compiled with Qt Creator with Qt 5 and OpenCV 3 and covered about 70% of planned features.
 

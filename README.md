@@ -1,6 +1,6 @@
 <p align="center">
   <img src="logo/sherloq.png" width="600px" alt="Sherloq" />
-  <br><b>An open source image forensic toolset</b>
+  <br><b>オープンソースな画像解析ツールセット</b>
 </p>
 
 # はじめに

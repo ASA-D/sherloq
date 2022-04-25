@@ -4,25 +4,24 @@
 </p>
 
 # はじめに
-"*法医学的画像解析とは、画像科学と専門知識を応用し、法的な問題において画像の内容や画像そのものを解析することです。法執行機関で利用される画像解析の主なサブディシプリンは写真測量、写真比較、コンテンツ分析、画像認証の４つです。*" (画像技術に関する科学ワーキンググループ)
+"*法医学的画像解析とは、画像科学と専門知識を駆使し、法的な問題において画像の内容や画像そのものを解析することです。法執行機関で利用される画像解析の主なサブディシプリンは写真測量、写真比較、コンテンツ分析、画像認証の４つです。*" (画像技術に関する科学ワーキンググループ)
 
-**Sherloq**は、デジタル画像フォレンジックのための完全に統合された環境を実装するための個人的な研究プロジェクトです。これは、画像が偽造されたものかどうかを判断する自動ツール（そんなツールはおそらく存在しないでしょう...）としてではなく、最新の研究論文やワークショップで見つかった様々なアルゴリズムを実験するためのコンパニオンとして意図されています。
+**Sherloq**は、デジタル画像解析のための完全に統合された環境を実装するための個人的な研究プロジェクトです。これは、画像が偽造されたものかどうかを判断するツール（そんなツールはおそらく存在しないでしょう...）としてではなく、最新の研究論文やワークショップで見つかった様々なアルゴリズムを実験するためのコンパニオンとして開発されています。
 多くの市販のプログラムは値段が非常に高く、法執行機関や政府機関のみに提供されることが多いのですが、このツールセットは拡張可能なフレームワークであると同時に、画像処理のためのアプリケーションを誰でも利用できるようにしています。
 
-私は、*不確実性*は、あらゆる種類の画像解析ツールセットを提供する時の間違った方法だと考えています（例えば、「この独自のソフトウェアを使えば、この写真が*本物であることを証明します...そして、あなたは私を信じてください!」）。オープンソースの理念に基づき、誰もが様々な技術を自分で試し、知識を得て、それをコミュニティで共有できるようにすべきです...コードの改善で貢献するなら、なおさらです。
+私は、*不確実性*は、あらゆる種類の画像解析ツールセットを提供する時の間違った方法だと考えています（例えば、「この独自のソフトウェアを使えば、この写真が*本物であることを証明します...そして、あなたは私を信じてください!」）。オープンソースの理念に基づき、誰もが様々な技術を自分で試し、知識を得て、それをコミュニティで共有できるようにすべきです...コードの改善に貢献するなら、なおさらです。
 
 - [沿革](https://github.com/GuidoBartoli/sherloq#historry)
 - [機能](https://github.com/GuidoBartoli/sherloq#features)
-- [スクショ](https://github.com/GuidoBartoli/sherloq#screenshots)
+- [スクリーンショット](https://github.com/GuidoBartoli/sherloq#screenshots)
 - [インストール方法](https://github.com/GuidoBartoli/sherloq#installation)
-- [アプデ一覧](https://github.com/GuidoBartoli/sherloq#updates)
+- [アップデート](https://github.com/GuidoBartoli/sherloq#updates)
 - [参考文献](https://github.com/GuidoBartoli/sherloq#bibliography)
 
 # 沿革
-最初のバージョンは、多くのオプションを持つコマンドラインユーティリティを構築するためにC++11を使って2015年に書かれましたが、すぐに面倒くさくなって効率的でないことが判明しました。 That version could be compiled with CMake after installing OpenCV, Boost and AlgLib libraries. This first proof of concept offered about 80% of planned features (see below for the full list).
+最初のバージョンは、多くのオプションを持つコマンドラインユーティリティを構築するためにC++11を使って2015年に書かれましたが、すぐに面倒くさくなって効率的でないことが判明しました。 そのバージョンは、OpenCV、Boost、AlgLibのライブラリをインストールした後、CMakeでコンパイルすることができました。 この最初の実証実験では、予定していた機能の約8割を提供しました。(詳しくは下記をご覧ください。).
 
-While also including novel algorithms, the 2017 version mainly added a Qt-based multi-window GUI to provide a better user experience. Multiple analyses could be shown on screen and a fast zoom/scroll  viewer was implemented for easier image navigation. That project could be compiled with Qt Creator with Qt 5 and OpenCV 3 and covered about 70% of planned features.
-
+新たなアルゴリズムも盛り込みつつ、2017年リリースのバージョンでは主にQtベースのマルチウィンドウGUIを追加し、より良いユーザーエクスペリエンスを提供することに成功しました。複数の解析結果を画面に表示することができ、高速ズーム/スクロールビューアも実装され、画像のナビゲーションが容易になりました。そのプロジェクトはQt CreatorでQt 5とOpenCV 3でコンパイルすることができ、予定していた機能の７割程度を実装することができました。
 Fast forward to 2020 when I decided to port everything in Python (PySide2 + Matplotlib + OpenCV) for easier development and deployment. While this iteration is just begun and I have yet to port all the previous code on the new platform, I think this will be the final "form" of the project (as long as someone does not volunteer up to develop a nice web application!).
 
 I'm happy to share my code and get in contact with anyone interested to improve or test it, but please keep in mind that this repository is *not* intended for distributing a final product, my aim is just to publicly track development of an *unpretentious educational tool*, so expect bugs, unpolished code and missing features! ;)

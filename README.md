@@ -29,13 +29,13 @@
 # 特徴
 このリストには、ベータ版の段階でこのライブラリが提供する（と期待される）機能が含まれています。 (**NOTE:** プログラム中にイタリック体で表示されている関数は、まだ実装されていません。).
 
-## Interface
-- Modern Qt-based GUI with multiple tool window management
-- Support for many formats (JPEG, PNG, TIFF, BMP, WebP, PGM, PFM, GIF)
-- Highly responsive image viewer with real-time pan and zoom
-- Many state-of-the-art algorithms to try out interactively
-- Export both visual and textual results of the analysis
-- Extensive online help with explanations and tutorials
+## インターフェース
+- 複数のツールウィンドウを管理できるQtベースのモダンなGUI
+- 多くのフォーマットに対応（JPEG、PNG、TIFF、BMP、WebP、PGM、PFM、GIF）
+- リアルタイムでパンやズームができる高機能な画像ビューア
+- インタラクティブに試せる多くの最先端アルゴリズム
+- 解析結果を画像とテキストで出力可能
+- 解説やチュートリアルを含む充実したオンラインサポート
 
 ## Tools
 

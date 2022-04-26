@@ -24,7 +24,7 @@
 新たなアルゴリズムも盛り込みつつ、2017年リリースのバージョンでは主にQtベースのマルチウィンドウGUIを追加し、より良いユーザーエクスペリエンスを提供することに成功しました。複数の解析結果を画面に表示することができ、高速ズーム/スクロールビューアも実装され、画像のナビゲーションが容易になりました。そのプロジェクトはQt CreatorでQt 5とOpenCV 3でコンパイルすることができ、予定していた機能の７割程度を実装することができました。
 2020年リリースのバージョンでは、開発とデプロイを容易にするために、すべてをPython（PySide2 + Matplotlib + OpenCV）で移植することにしました。 この挑戦は始まったばかりで、まだ以前のコードをすべて新しいプラットフォームに移植していませんが、これがプロジェクトの最終的な「形」になると思います（誰かが素敵なウェブアプリケーションを開発するためにボランティアで参加しない限りはね！）。
 
-I'm happy to share my code and get in contact with anyone interested to improve or test it, but please keep in mind that this repository is *not* intended for distributing a final product, my aim is just to publicly track development of an *unpretentious educational tool*, so expect bugs, unpolished code and missing features! ;)
+私は、このコードを共有し、改善やテストをしようと考えている方を歓迎しています。しかし、このリポジトリは最終的な製品を配布するためのものではないことを心に留めておいてください、私の目的は、*安価な教育ツール*の開発をトラッキングするだけですので、バグや洗練されていないコード、足りない機能の追加を期待しています。
 
 # Features
 This list contains the functions that the toolkit will (hopefully) provide once beta stage is reached (**NOTE:** functions displayed in _italics_ inside the program are not yet implemented!).

@@ -26,8 +26,8 @@
 
 私は、このコードを共有し、改善やテストをしようと考えている方を歓迎しています。しかし、このリポジトリは最終的な製品を配布するためのものではないことを心に留めておいてください、私の目的は、*安価な教育ツール*の開発をトラッキングするだけですので、バグや洗練されていないコード、足りない機能の追加を期待しています。
 
-# Features
-This list contains the functions that the toolkit will (hopefully) provide once beta stage is reached (**NOTE:** functions displayed in _italics_ inside the program are not yet implemented!).
+# 特徴
+このリストには、ベータ版の段階でこのライブラリが提供する（と期待される）機能が含まれています。 (**NOTE:** プログラム中にイタリック体で表示されている関数は、まだ実装されていません。).
 
 ## Interface
 - Modern Qt-based GUI with multiple tool window management

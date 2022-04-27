@@ -47,8 +47,8 @@
 - __Hex Editor__: open an external hexadecimal editor to show and edit raw bytes
 - __Similar Search__: browse online search services to find visually similar images
 
-### Metadata
-- __Header Structure__: dump the file header structure and display an interactive view
+### メタデータ
+- __Header Structure__: dump the file header structure and display an interactive view
 - __EXIF Full Dump__: scan through file metadata and gather all available information
 - __Thumbnail Analysis__: extract optional embedded thumbnail and compare with original
 - __Geolocation Data__: retrieve optional geolocation data and show it on a world map

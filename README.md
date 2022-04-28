@@ -39,7 +39,7 @@
 - 解析結果を画像とテキストで出力可能
 - 解説やチュートリアルを含む充実したオンラインサポート
 
-## ツール州
+## ツール一覧
 
 ### General
 - __Original Image__: display the unaltered reference image for visual inspection

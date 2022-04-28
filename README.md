@@ -42,10 +42,10 @@
 ## ツール一覧
 
 ### 一般
-- __原画__: 目視で確認できるように、変更前の基準画像を表示します。
-- __ファイル名__: retrieve physical file information, crypto and perceptual hashes
-- __Hex Editor__: open an external hexadecimal editor to show and edit raw bytes
-- __Similar Search__: browse online search services to find visually similar images
+- __Original Image__: 目視で確認できるように、変更前の基準画像を表示します。
+- __File Digest__: ファイル情報、暗号、画像ハッシュの取得
+- __Hex Editor__: 外部の16進数エディタを開き、RAWバイトを表示・編集する。
+- __Similar Search__: 画像検索で類似の画像を探す
 
 ### メタデータ
 - __Header Structure__: dump the file header structure and display an interactive view

@@ -41,9 +41,9 @@
 
 ## ツール一覧
 
-### General
-- __Original Image__: display the unaltered reference image for visual inspection
-- __File Digest__: retrieve physical file information, crypto and perceptual hashes
+### 一般
+- __原画__: 目視で確認できるように、変更前の基準画像を表示します。
+- __ファイル名__: retrieve physical file information, crypto and perceptual hashes
 - __Hex Editor__: open an external hexadecimal editor to show and edit raw bytes
 - __Similar Search__: browse online search services to find visually similar images
 
